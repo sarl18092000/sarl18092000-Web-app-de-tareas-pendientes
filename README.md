@@ -1,11 +1,11 @@
-## Web-app-de-tareas-pendientes
+##Web-app-de-tareas-pendientes
 
 #🗂️ Estructura de carpetas simple
 
-Carpeta-del-proyecto/
-├── index.html
-├── styles.css
-└── script.js
+Carpeta-del-proyecto/  
+├── index.html  
+├── script.js  
+└── styles.css
 
 #📝 Webapp de tareas pendientes
 
