@@ -1,6 +1,6 @@
-##Web-app-de-tareas-pendientes
+## Web-app-de-tareas-pendientes
 
-#🗂️ Estructura de carpetas simple
+# 🗂️ Estructura de carpetas simple
 
 Carpeta-del-proyecto/  
 ├── index.html  
