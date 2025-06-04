@@ -7,7 +7,7 @@ Carpeta-del-proyecto/
 ├── script.js  
 └── styles.css
 
-#📝 Descripción de la webapp
+#📝 Descripción de la webapp:
 
 - Aplicación web simple para gestionar tareas pendientes.
 - Permite agregar, editar, completar y eliminar tareas.
