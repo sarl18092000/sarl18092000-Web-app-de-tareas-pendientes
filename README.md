@@ -7,7 +7,7 @@ Carpeta-del-proyecto/
 ├── script.js  
 └── styles.css
 
-#📝 Webapp de tareas pendientes
+#📝 Descripción de la webapp
 
 -Aplicación web simple para gestionar tareas pendientes.
 -Permite agregar, editar, completar y eliminar tareas.
