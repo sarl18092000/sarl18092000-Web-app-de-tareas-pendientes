@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-right: 12px;
+  padding-left: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #000000;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+#msg {
+  color: #dc3545;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#tasks > div {
+  background: #f0f4f8;
+  padding: 15px;
+  margin-top: 15px;
+  border-left: 6px solid #007bff;
+  border-radius: 6px;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+#tasks > div:hover {
+  transform: scale(1.01);
+}
+
+#tasks .options {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.options button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.options button:hover {
+  color: #007bff;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+  border-left: 6px solid #28a745 !important;
+}
